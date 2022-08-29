@@ -1,0 +1,1277 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+/*===2nd hero===*/
+
+.starthero {
+    height: auto;
+    width: 40%;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+
+.startheading {
+    align-items: center;
+    justify-content: center;
+    margin-left: 650px;
+    margin-top: 100px;
+    font-size: 45px;
+    font-weight: 1000;
+    margin-bottom: 30px;
+
+}
+
+.startlink {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin-left: 800px;
+    margin-top: 100px;
+    font-weight: 300;
+    font-size: 22PX;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width:1450px) {
+    .starthero {
+        height: auto;
+        width: 44%;
+        margin-left: 380px;
+        margin-top: 149px;
+    }
+
+    .startheading {
+        margin-left: 420px;
+    }
+
+    .startlink {
+        margin-left: 580px;
+    }
+
+}
+
+
+
+@media only screen and (max-width:500px) {
+    .starthero {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 150px;
+        width: 100%;
+    }
+
+    .startheading {
+        margin-left: 110px;
+        margin-right: 15px;
+        margin-top: 10px;
+        font-size: 30px;
+
+    }
+
+    .startlink {
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 15px 15px 15px 15px;
+
+
+    }
+
+}
+
+/*===2nd hero end===*/
+
+/*===navbar===*/
+
+.nav-image img {
+    height: 7%;
+    width: 7%;
+    margin-left: 220px;
+    margin-top: 5px;
+}
+
+/*=navbar end===*/
+
+
+
+/*hero part===*/
+
+
+.hero-image {
+    flex-shrink: inherit;
+    flex-basis: 70%;
+    position: relative;
+    margin-top: -3px;
+}
+
+.main-image {
+    height: auto;
+    width: 52%;
+    position: relative;
+    margin-left: 38px;
+    margin-top: 76px;
+
+}
+
+.hero-part {
+    display: flex;
+
+}
+
+.hero-text h1 {
+    font-size: 57px;
+    font-weight: 1000;
+
+
+}
+
+.hero-text h1 span {
+    color: #0035D4;
+}
+
+.hero-text p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.hero-text {
+    margin-left: 183px;
+    margin-top: 139px;
+}
+
+
+.hero-text .btn1 {
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+    padding: 13px;
+    background-color: #0035D4;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid #0035D4;
+
+}
+.hero-text .btn1:hover{
+    background-color: white;
+    border: 1px solid #0035D4;
+    color: rgb(0, 0, 0);
+    transition: 0.5ms ease-in;
+}
+
+.hero-text .btn2 {
+    text-decoration: none;
+    font-style: normal;
+    color: black;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 2px solid #0035D4;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+.btn2:hover{
+    background-color: #0035D4;
+    color: white;
+    transition: 0.5ms ease-in;
+}
+
+/*hero part end===*/
+
+
+
+/*====service part===*/
+.service-heading h1 {
+    color: black;
+    padding-top: 55px;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+
+.ser-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 45px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.ser-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    height: 350px;
+
+}
+
+.ser-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 106px;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.ser-card h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: -54px;
+    font-weight: 650;
+}
+
+.ser-card p {
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
+.ser-card2 {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: rgb(214, 255, 211);
+    border-radius: 25px;
+    height: 350px;
+}
+
+.ser-card2 img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: auto;
+    width: auto;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+.ser-card2 h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: -54px;
+    font-weight: 650;
+}
+
+.ser-card2 p {
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+
+
+
+
+.ser-card3 {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: rgb(239, 215, 250);
+    border-radius: 25px;
+    height: 350px;
+}
+
+.ser-card3 img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: auto;
+    width: auto;
+    height: 20vh;
+    border-radius: 50%;
+}
+
+.ser-card3 h1 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: -54px;
+    font-weight: 650;
+}
+
+.ser-card3 p {
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/*====service part end===*/
+
+
+
+
+/*====download illustration===*/
+
+.download-heading h1{
+    color: black;
+    padding-top: 55px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.download-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 45px;
+}
+
+.download-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.download-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.download-card a {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 152px;
+    margin-right: auto;
+}
+
+
+
+
+.adownload-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.adownload-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.adownload-card a {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 135px;
+    margin-right: auto;
+}
+
+
+
+
+
+
+.bdownload-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.bdownload-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.bdownload-card a {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 107px;
+    margin-right: auto;
+}
+
+
+
+
+
+
+.cdownload-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.cdownload-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.cdownload-card a {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 135px;
+    margin-right: auto;
+}
+
+
+
+
+
+
+.ddownload-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.ddownload-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-right: auto;
+    width: auto;
+    height: 13vh;
+    border-radius: 50%;
+}
+
+.ddownload-card a {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 118px;
+    margin-right: auto;
+}
+
+
+
+
+
+
+.edownload-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.edownload-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.edownload-card a {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 160px;
+    margin-right: auto;
+}
+
+
+
+
+
+.fdownload-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.fdownload-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.fdownload-card a {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 194px;
+    margin-right: auto;
+}
+
+
+
+
+.gdownload-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.gdownload-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.gdownload-card a {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 156px;
+    margin-right: auto;
+}
+
+
+
+
+.hdownload-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.hdownload-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.hdownload-card a {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 135px;
+    margin-right: auto;
+}
+
+
+
+.idownload-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.idownload-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.idownload-card a {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 142px;
+    margin-right: auto;
+}
+
+
+
+
+.jdownload-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.jdownload-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.jdownload-card a {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 162px;
+    margin-right: auto;
+}
+
+
+
+.kdownload-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.kdownload-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.kdownload-card a {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 162px;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+.ldownload-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.ldownload-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.ldownload-card a {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 175px;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+.mdownload-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.mdownload-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.mdownload-card a {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 162px;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+.ndownload-card {
+    max-width: 400px;
+    max-height: 450px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.ndownload-card img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 98px;
+    margin-right: auto;
+    width: auto;
+    height: 17vh;
+    border-radius: 50%;
+}
+
+.ndownload-card a {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 162px;
+    margin-right: auto;
+}
+
+/*====download illustration end===*/
+
+
+
+/*====whre to use illustrtation===*/
+.where{
+    background-color: #0035D4;
+}
+
+
+.where-heading h1 {
+    font-size: 43px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    padding-top: 41px;
+  }
+
+.where-img1{
+    height: auto;
+    width:73%;
+    border-radius: 30px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: auto;
+}
+.where-img2{
+    height: auto;
+    width:73%;
+    border-radius: 30px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: auto;
+}
+/*====whre to use illustrtation end===*/
+
+
+
+/*====particular===*/
+.part-heading{
+    margin-top: 150px;
+
+}
+.part-heading h1{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.part-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.part-card{
+    max-width: 350px;
+    max-height: 500px;
+    height: 400px;
+
+}
+.part-card img{
+    height: auto;
+    width: 100%;
+
+}
+.part-card h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 25px;
+
+}
+.part-card a{
+    text-decoration: none;
+    padding: 13px;
+    background-color: bisque;
+    color: black;
+    font-weight: 400;
+    border-radius: 15px;
+    margin-left: 105px;
+
+}
+
+
+/*====particular end===*/
+
+
+
+
+
+
+/*=====footer===*/
+
+.dash-line p{
+    text-align: center;
+    margin-top: 210px;
+}
+
+.last-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.footer-text{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    
+    
+}
+.maintextfooter{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.small{
+    text-align: center;
+    font-size:15px ;
+    font-weight: 400;
+    color: rgb(40, 40, 40);
+
+}
+
+.insta{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 350;
+
+}
+.insta span{
+    color: #0035D4;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: rgb(44, 43, 43);
+}
+/*=====footer end===*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media query for head part==*/
+
+@media only screen and (max-width:1450px) {
+    .hero-text h1 {
+        font-size: 49px;
+    }
+}
+
+
+@media only screen and (max-width:1300px) {
+    .hero-text h1 {
+        font-size: 45px;
+
+    }
+
+    .main-image {
+        height: auto;
+        width: 60%;
+    }
+
+    .btn1 {
+        font-size: 13px;
+    }
+
+    .btn2 {
+        font-size: 13px;
+    }
+}
+
+
+
+@media only screen and (max-width:500px) {
+    .nav-image img {
+        height: 7%;
+        width: 25%;
+        margin-left: 10px;
+    }
+
+    .hero-part {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .hero-image {
+        margin-top: -55px;
+    }
+
+    .hero-text {
+        margin-left: 40px;
+        margin-top: 60px;
+        margin-right: 10px;
+    }
+
+    .hero-text h1 {
+        font-size: 33px;
+        margin-left: 5px;
+    }
+
+    .main-image {
+        margin-left: 80px;
+    }
+
+
+
+
+}
+
+/*media query for head part END==*/
+
+
+
+/*====media query for service part===*/
+@media only screen and (max-width:500px) {
+    .ser-parent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ser-card {
+        margin-left: 25px;
+        margin-right: 25px;
+        width: 330px;
+    }
+
+    .ser-card2 {
+        width: 330px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .ser-card3 {
+        margin-left: 25px;
+        margin-right: 25px;
+        width: 330px;
+    }
+}
+
+/*====media query for service part end===*/
+
+
+
+/*=====media quewry for downl.oad illuistration==*/
+
+@media only screen and (max-width:500px) {
+    .download-parent{
+        flex-direction: column;
+    }
+    .download-card {
+
+
+
+        margin-left: -100px;
+
+    }
+
+    .adownload-card {
+
+        margin-left: -100px;
+    }
+    .bdownload-card{
+        
+margin-left: -100px;
+    }
+    .cdownload-card{
+        
+margin-left: -100px;
+    }
+    .ddownload-card{
+        
+margin-left: -100px;
+    }
+    .edownload-card{
+        
+margin-left: -100px;
+    }
+    .fdownload-card{
+        
+margin-left: -100px;
+    }
+    .fdownload-card a{
+        margin-left: 172px;
+    }
+    .gdownload-card{
+        
+margin-left: -100px;
+    }
+    .hdownload-card{
+        
+margin-left: -100px;
+    }
+    .hdownload-card{
+        
+margin-left: -100px;
+    }
+    .idownload-card{
+        
+margin-left: -100px;
+    }
+    .jdownload-card{
+        
+margin-left: -100px;
+    }
+    .jdownload-card a{
+        margin-left: 150px;
+    }
+    .kdownload-card{
+        
+margin-left: -100px;
+    }
+    .kdownload-card a{
+        margin-left: 150px;
+    }
+    .ldownload-card{
+        
+margin-left: -100px;
+    }
+    .mdownload-card{
+        
+margin-left: -100px;
+    }
+    .ndownload-card{
+        
+margin-left: -100px;
+    }
+
+}
+
+/*====media query for downl;oad illustration end===*/
+
+
+
+/*====media-query for where part==*/
+
+@media only screen and (max-width:500px) {
+.where-img1{
+    margin-left: 65px;
+
+}
+.where-img2{
+    margin-left: 65px;
+    margin-top: -44px;
+}
+}
+/*====media-query for where part end==*/
+
+
+
+/*====media query for part===*/
+
+
+@media only screen and (max-width:500px) {
+ .part-parent{
+    flex-direction: column;
+ }
+
+ .part-card{
+    margin-bottom: 70PX;
+ }
+}
+
+
+/*====footer===*/
+
+@media only screen and (max-width:500px) {
+.last-footer{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+}
+
+/*====footer end===*/
+
+
+
